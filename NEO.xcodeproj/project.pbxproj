@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B500A7802D02DDD400378734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A77F2D02DDD400378734 /* AppDelegate.m */; };
+		B500A7832D02DDD400378734 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7822D02DDD400378734 /* SceneDelegate.m */; };
+		B500A7862D02DDD400378734 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7852D02DDD400378734 /* LoginViewController.m */; };
+		B500A7892D02DDD400378734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500A7872D02DDD400378734 /* Main.storyboard */; };
+		B500A78B2D02DDD600378734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B500A78A2D02DDD600378734 /* Assets.xcassets */; };
+		B500A78E2D02DDD600378734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500A78C2D02DDD600378734 /* LaunchScreen.storyboard */; };
+		B500A7912D02DDD600378734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7902D02DDD600378734 /* main.m */; };
+		B500A7AC2D02E28300378734 /* RegisterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7AB2D02E28300378734 /* RegisterViewModel.m */; };
+		B500A7AF2D02E29600378734 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7AE2D02E29600378734 /* RegisterViewController.m */; };
+		B500A7B42D02E39A00378734 /* RegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7B32D02E39A00378734 /* RegisterModel.m */; };
+		B500A7B92D02E3FF00378734 /* RegisterAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7B82D02E3FF00378734 /* RegisterAPIs.m */; };
+		B500A7BC2D02E41000378734 /* RegisterServices.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7BB2D02E41000378734 /* RegisterServices.m */; };
+		B500A7BF2D02E46700378734 /* APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7BE2D02E46700378734 /* APIRequest.m */; };
+		B500A7C22D02E47A00378734 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7C12D02E47A00378734 /* NetworkManager.m */; };
+		B500A7C72D02E4F100378734 /* TextFieldExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7C62D02E4F100378734 /* TextFieldExtension.m */; };
+		B500A7CA2D02E54F00378734 /* ForgotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7C92D02E54F00378734 /* ForgotViewController.m */; };
+		B500A7CF2D02E67B00378734 /* RegisterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7CD2D02E67B00378734 /* RegisterViewCell.m */; };
+		B500A7D02D02E67B00378734 /* RegisterViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B500A7CE2D02E67B00378734 /* RegisterViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B500A77B2D02DDD400378734 /* NEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B500A77E2D02DDD400378734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B500A77F2D02DDD400378734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B500A7812D02DDD400378734 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B500A7822D02DDD400378734 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B500A7842D02DDD400378734 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B500A7852D02DDD400378734 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B500A7882D02DDD400378734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B500A78A2D02DDD600378734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B500A78D2D02DDD600378734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B500A78F2D02DDD600378734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B500A7902D02DDD600378734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B500A7AA2D02E28300378734 /* RegisterViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewModel.h; sourceTree = "<group>"; };
+		B500A7AB2D02E28300378734 /* RegisterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewModel.m; sourceTree = "<group>"; };
+		B500A7AD2D02E29600378734 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		B500A7AE2D02E29600378734 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		B500A7B22D02E39A00378734 /* RegisterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterModel.h; sourceTree = "<group>"; };
+		B500A7B32D02E39A00378734 /* RegisterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterModel.m; sourceTree = "<group>"; };
+		B500A7B72D02E3FF00378734 /* RegisterAPIs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterAPIs.h; sourceTree = "<group>"; };
+		B500A7B82D02E3FF00378734 /* RegisterAPIs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterAPIs.m; sourceTree = "<group>"; };
+		B500A7BA2D02E41000378734 /* RegisterServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterServices.h; sourceTree = "<group>"; };
+		B500A7BB2D02E41000378734 /* RegisterServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterServices.m; sourceTree = "<group>"; };
+		B500A7BD2D02E46700378734 /* APIRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIRequest.h; sourceTree = "<group>"; };
+		B500A7BE2D02E46700378734 /* APIRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIRequest.m; sourceTree = "<group>"; };
+		B500A7C02D02E47A00378734 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		B500A7C12D02E47A00378734 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		B500A7C52D02E4F100378734 /* TextFieldExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldExtension.h; sourceTree = "<group>"; };
+		B500A7C62D02E4F100378734 /* TextFieldExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldExtension.m; sourceTree = "<group>"; };
+		B500A7C82D02E54F00378734 /* ForgotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotViewController.h; sourceTree = "<group>"; };
+		B500A7C92D02E54F00378734 /* ForgotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgotViewController.m; sourceTree = "<group>"; };
+		B500A7CC2D02E67B00378734 /* RegisterViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewCell.h; sourceTree = "<group>"; };
+		B500A7CD2D02E67B00378734 /* RegisterViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewCell.m; sourceTree = "<group>"; };
+		B500A7CE2D02E67B00378734 /* RegisterViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B500A7782D02DDD400378734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B500A7722D02DDD400378734 = {
+			isa = PBXGroup;
+			children = (
+				B500A77D2D02DDD400378734 /* NEO */,
+				B500A77C2D02DDD400378734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B500A77C2D02DDD400378734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B500A77B2D02DDD400378734 /* NEO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B500A77D2D02DDD400378734 /* NEO */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7972D02DDE900378734 /* Application */,
+				B500A7982D02DE3600378734 /* Presentation */,
+				B500A7992D02DE3F00378734 /* BusinessLayer */,
+				B500A79A2D02DE4900378734 /* DataLayer */,
+				B500A79C2D02DE5F00378734 /* Utils */,
+				B500A79B2D02DE4F00378734 /* Resources */,
+				B500A7872D02DDD400378734 /* Main.storyboard */,
+				B500A78A2D02DDD600378734 /* Assets.xcassets */,
+				B500A78F2D02DDD600378734 /* Info.plist */,
+			);
+			path = NEO;
+			sourceTree = "<group>";
+		};
+		B500A7972D02DDE900378734 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B500A77E2D02DDD400378734 /* AppDelegate.h */,
+				B500A77F2D02DDD400378734 /* AppDelegate.m */,
+				B500A7822D02DDD400378734 /* SceneDelegate.m */,
+				B500A7812D02DDD400378734 /* SceneDelegate.h */,
+				B500A7902D02DDD600378734 /* main.m */,
+				B500A78C2D02DDD600378734 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B500A7982D02DE3600378734 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7A02D02DEA600378734 /* Home */,
+				B500A79F2D02DE9300378734 /* ForgotPassword */,
+				B500A79E2D02DE8C00378734 /* Register */,
+				B500A79D2D02DE7700378734 /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B500A7992D02DE3F00378734 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7B52D02E3C900378734 /* Repo */,
+				B500A7B02D02E37300378734 /* Models */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		B500A79A2D02DE4900378734 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7BD2D02E46700378734 /* APIRequest.h */,
+				B500A7BE2D02E46700378734 /* APIRequest.m */,
+				B500A7C02D02E47A00378734 /* NetworkManager.h */,
+				B500A7C12D02E47A00378734 /* NetworkManager.m */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		B500A79B2D02DE4F00378734 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B500A79C2D02DE5F00378734 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7C42D02E4D600378734 /* Extensions */,
+				B500A7C32D02E4CF00378734 /* Custom */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B500A79D2D02DE7700378734 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7A92D02DEFD00378734 /* ViewModel */,
+				B500A7A72D02DEEB00378734 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B500A79E2D02DE8C00378734 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7A62D02DEE400378734 /* ViewModel */,
+				B500A7A52D02DEDF00378734 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		B500A79F2D02DE9300378734 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7A42D02DED500378734 /* ViewModel */,
+				B500A7A32D02DECC00378734 /* View */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		B500A7A02D02DEA600378734 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7A22D02DEB200378734 /* ViewModel */,
+				B500A7A12D02DEAD00378734 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B500A7A12D02DEAD00378734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B500A7A22D02DEB200378734 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B500A7A32D02DECC00378734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7C82D02E54F00378734 /* ForgotViewController.h */,
+				B500A7C92D02E54F00378734 /* ForgotViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B500A7A42D02DED500378734 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B500A7A52D02DEDF00378734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7CB2D02E66200378734 /* Cell */,
+				B500A7AD2D02E29600378734 /* RegisterViewController.h */,
+				B500A7AE2D02E29600378734 /* RegisterViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B500A7A62D02DEE400378734 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7AA2D02E28300378734 /* RegisterViewModel.h */,
+				B500A7AB2D02E28300378734 /* RegisterViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B500A7A72D02DEEB00378734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7842D02DDD400378734 /* LoginViewController.h */,
+				B500A7852D02DDD400378734 /* LoginViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B500A7A92D02DEFD00378734 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B500A7B02D02E37300378734 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7B12D02E37C00378734 /* Register */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B500A7B12D02E37C00378734 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7B22D02E39A00378734 /* RegisterModel.h */,
+				B500A7B32D02E39A00378734 /* RegisterModel.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		B500A7B52D02E3C900378734 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7B62D02E3D700378734 /* Register */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		B500A7B62D02E3D700378734 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7B72D02E3FF00378734 /* RegisterAPIs.h */,
+				B500A7B82D02E3FF00378734 /* RegisterAPIs.m */,
+				B500A7BA2D02E41000378734 /* RegisterServices.h */,
+				B500A7BB2D02E41000378734 /* RegisterServices.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		B500A7C32D02E4CF00378734 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		B500A7C42D02E4D600378734 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7C52D02E4F100378734 /* TextFieldExtension.h */,
+				B500A7C62D02E4F100378734 /* TextFieldExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B500A7CB2D02E66200378734 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B500A7CC2D02E67B00378734 /* RegisterViewCell.h */,
+				B500A7CD2D02E67B00378734 /* RegisterViewCell.m */,
+				B500A7CE2D02E67B00378734 /* RegisterViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B500A77A2D02DDD400378734 /* NEO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B500A7942D02DDD600378734 /* Build configuration list for PBXNativeTarget "NEO" */;
+			buildPhases = (
+				B500A7772D02DDD400378734 /* Sources */,
+				B500A7782D02DDD400378734 /* Frameworks */,
+				B500A7792D02DDD400378734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEO;
+			productName = NEO;
+			productReference = B500A77B2D02DDD400378734 /* NEO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B500A7732D02DDD400378734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B500A77A2D02DDD400378734 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B500A7762D02DDD400378734 /* Build configuration list for PBXProject "NEO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B500A7722D02DDD400378734;
+			productRefGroup = B500A77C2D02DDD400378734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B500A77A2D02DDD400378734 /* NEO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B500A7792D02DDD400378734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B500A78E2D02DDD600378734 /* LaunchScreen.storyboard in Resources */,
+				B500A7D02D02E67B00378734 /* RegisterViewCell.xib in Resources */,
+				B500A78B2D02DDD600378734 /* Assets.xcassets in Resources */,
+				B500A7892D02DDD400378734 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B500A7772D02DDD400378734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B500A7AC2D02E28300378734 /* RegisterViewModel.m in Sources */,
+				B500A7AF2D02E29600378734 /* RegisterViewController.m in Sources */,
+				B500A7C72D02E4F100378734 /* TextFieldExtension.m in Sources */,
+				B500A7862D02DDD400378734 /* LoginViewController.m in Sources */,
+				B500A7C22D02E47A00378734 /* NetworkManager.m in Sources */,
+				B500A7B92D02E3FF00378734 /* RegisterAPIs.m in Sources */,
+				B500A7802D02DDD400378734 /* AppDelegate.m in Sources */,
+				B500A7CF2D02E67B00378734 /* RegisterViewCell.m in Sources */,
+				B500A7912D02DDD600378734 /* main.m in Sources */,
+				B500A7CA2D02E54F00378734 /* ForgotViewController.m in Sources */,
+				B500A7B42D02E39A00378734 /* RegisterModel.m in Sources */,
+				B500A7BC2D02E41000378734 /* RegisterServices.m in Sources */,
+				B500A7BF2D02E46700378734 /* APIRequest.m in Sources */,
+				B500A7832D02DDD400378734 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B500A7872D02DDD400378734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B500A7882D02DDD400378734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B500A78C2D02DDD600378734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B500A78D2D02DDD600378734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B500A7922D02DDD600378734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B500A7932D02DDD600378734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B500A7952D02DDD600378734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NEO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.registrationform.net.NEO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B500A7962D02DDD600378734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NEO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.registrationform.net.NEO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B500A7762D02DDD400378734 /* Build configuration list for PBXProject "NEO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B500A7922D02DDD600378734 /* Debug */,
+				B500A7932D02DDD600378734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B500A7942D02DDD600378734 /* Build configuration list for PBXNativeTarget "NEO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B500A7952D02DDD600378734 /* Debug */,
+				B500A7962D02DDD600378734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B500A7732D02DDD400378734 /* Project object */;
+}

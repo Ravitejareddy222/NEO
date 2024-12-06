@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F860DF33-B79A-4F4D-8BF4-3D8F3B8AEECF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6 - bd89b91c8accef43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__89-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6 - 722c5241f2821768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "789">
+               </Location>
+               <Location
+                  uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6 - bd89b91c8accef43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__89-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6 - 722c5241f2821768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "768">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D37110DC-506E-4BE6-AB6E-F7F8D089041B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB5C20BA-7231-4373-BDA5-FFD42D739719"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "-saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB5C20BA-7231-4373-BDA5-FFD42D739719 - 722c5241f2821660"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "395">
+               </Location>
+               <Location
+                  uuid = "AB5C20BA-7231-4373-BDA5-FFD42D739719 - 722c5241f2821660"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "315">
+               </Location>
+               <Location
+                  uuid = "AB5C20BA-7231-4373-BDA5-FFD42D739719 - 722c5241f2821660"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52DA667A-A1E8-4394-989F-E338065BEF05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/BusinessLayer/Repo/Register/RegisterServices.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "-saveUserData:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B34F8CFA-2D2C-499E-AD8F-11FB8B5B07D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/DataLayer/NetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-performDataRequestWithPath:method:parameters:headers:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0CBF7888-2730-4B34-B9D7-7CA512EDA57B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/DataLayer/NetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-performDataRequestWithPath:method:parameters:headers:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0CBF7888-2730-4B34-B9D7-7CA512EDA57B - 98af92a34cd51488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NetworkManager performDataRequestWithPath:method:parameters:headers:completion:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/DataLayer/NetworkManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "0CBF7888-2730-4B34-B9D7-7CA512EDA57B - 8bfc6e647e06d041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__82-[NetworkManager performDataRequestWithPath:method:parameters:headers:completion:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/DataLayer/NetworkManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "91">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D48AAF9-FC69-4665-A4CB-8472601CDEB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/DataLayer/NetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-performDataRequestWithPath:method:parameters:headers:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D2B9A02-EA90-4485-8895-7BEB70F95D63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/DataLayer/NetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-performDataRequestWithPath:method:parameters:headers:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F684AED6-6D3D-4F07-9579-1492B62EE45C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F684AED6-6D3D-4F07-9579-1492B62EE45C - 722c5241f28216a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "527">
+               </Location>
+               <Location
+                  uuid = "F684AED6-6D3D-4F07-9579-1492B62EE45C - 722c5241f28216a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "459">
+               </Location>
+               <Location
+                  uuid = "F684AED6-6D3D-4F07-9579-1492B62EE45C - 722c5241f28216a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "438">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
