@@ -16,7 +16,6 @@ typedef void (^APICompletionHandler)(id _Nullable data, NSError * _Nullable erro
 - (void)performDataRequestWithPath:(NSString *_Nullable)path
                             method:(NSString *_Nullable)method
                         parameters:(NSDictionary * _Nullable)parameters
-                           headers:(NSDictionary * _Nullable)headers
                         completion:(APICompletionHandler _Nullable )completionHandler;
 
 @end

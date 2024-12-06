@@ -33,15 +33,33 @@
 - (void)performDataRequestWithPath:(NSString *)path
                             method:(NSString *)method
                         parameters:(NSDictionary *)parameters
-                           headers:(NSDictionary<NSString *, NSString *> *)headers
                         completion:(void (^)(id _Nullable, NSError * _Nullable))completion {
     NSURL *url = [NSURL URLWithString:path];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = method;
-    [request setAllHTTPHeaderFields:headers];
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
 
     if (parameters) {
-        request.HTTPBody = [NSJSONSerialization dataWithJSONObject:parameters options:0 error:nil];
+        // Create a mutable string to store the body
+        NSMutableString *bodyString = [NSMutableString string];
+        
+        // Iterate over the parameters and URL-encode them
+        for (NSString *key in parameters.allKeys) {
+            NSString *value = [NSString stringWithFormat:@"%@", parameters[key]];
+            
+            // URL encode both the key and value
+            NSString *encodedKey = [key stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+            NSString *encodedValue = [value stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+            
+            // Append the encoded key-value pair to the body string
+            if (bodyString.length > 0) {
+                [bodyString appendString:@"&"];
+            }
+            [bodyString appendFormat:@"%@=%@", encodedKey, encodedValue];
+        }
+        
+        // Set the HTTPBody with the URL-encoded parameters
+        request.HTTPBody = [bodyString dataUsingEncoding:NSUTF8StringEncoding];
     }
 
     NSURLSessionDataTask *task = [self.session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
@@ -53,8 +71,8 @@
         id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         completion(json, nil);
     }];
+    
     [task resume];
 }
 
 @end
-

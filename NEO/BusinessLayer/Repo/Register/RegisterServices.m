@@ -13,13 +13,11 @@
 
 - (void)saveUserData:(NSDictionary *)params completion:(void (^)(UserResponse * _Nullable response, NSError * _Nullable error))completion {
     NSString *path = [RegisterAPIs saveRegisterDataPath];
-    NSDictionary *headers = [RegisterAPIs headers];
     NSString *method = [RegisterAPIs method];
 
     [[NetworkManager sharedInstance] performDataRequestWithPath:path
                                                          method:method
                                                      parameters:params
-                                                        headers:headers
                                                      completion:^(id _Nullable data, NSError * _Nullable error) {
         if (error) {
             completion(nil, error);

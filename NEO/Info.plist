@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>NSAppTransportSecurity</key>
-	<dict/>
-	<key>/Users/neo/Desktop/NEO/NEO/DataLayer/NetworkManager.m:47 App Transport Security has blocked a cleartext HTTP connection tostaging.php-dev.insince it is insecure. Use HTTPS instead or add this domain to Exception Domains in your Info.plist.
-Allow Arbitr</key>
-	<string></string>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

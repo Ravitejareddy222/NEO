@@ -219,7 +219,7 @@
                 <outlet property="lastNameTextField" destination="Xmw-J3-C3I" id="1IH-4B-bi1"/>
                 <outlet property="maleImg" destination="RLE-lJ-g0H" id="UN4-As-knu"/>
                 <outlet property="maleView" destination="Qby-8c-65B" id="NDH-Zd-hed"/>
-                <outlet property="passwordTextField" destination="571-qv-44h" id="tsu-rl-loL"/>
+                <outlet property="passwordTextField" destination="571-qv-44h" id="48j-tf-zVv"/>
                 <outlet property="phoneNumberTextField" destination="v8o-xF-uAS" id="zvo-Kv-RF7"/>
                 <outlet property="registerButton" destination="igi-6M-q52" id="Ny2-VL-Hdd"/>
             </connections>

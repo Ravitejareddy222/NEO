@@ -15,13 +15,13 @@
     
     _params = [NSMutableDictionary dictionary];
     
-    [self.params setObject:@"first_name" forKey:firstname];
-    [self.params setObject:@"last_name" forKey:lastname];
-    [self.params setObject:@"email" forKey:email];
-    [self.params setObject:@"password" forKey:password];
-    [self.params setObject:@"confirm_password" forKey:confirmPassword];
-    [self.params setObject:@"gender" forKey:gender];
-    [self.params setObject:@"phone_no" forKey:phoneNumber];
+        [self.params setObject:firstname forKey:@"first_name"];
+        [self.params setObject:lastname forKey:@"last_name"];
+        [self.params setObject:email forKey:@"email"];
+        [self.params setObject:password forKey:@"password"];
+        [self.params setObject:confirmPassword forKey:@"confirm_password"];
+        [self.params setObject:phoneNumber forKey:@"phone_no"];
+        [self.params setObject:gender forKey:@"gender"];
     
     [self.registerProtocol saveUserData:_params completion:^(UserResponse * _Nullable response, NSError * _Nullable error) {
             if (error) {
