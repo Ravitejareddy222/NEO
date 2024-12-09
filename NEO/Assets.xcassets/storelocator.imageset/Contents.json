@@ -1,6 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "sofa1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
       "filename" : "storelocator.png",
       "idiom" : "universal",
       "scale" : "1x"

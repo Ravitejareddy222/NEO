@@ -25,6 +25,18 @@
 		B500A7CA2D02E54F00378734 /* ForgotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7C92D02E54F00378734 /* ForgotViewController.m */; };
 		B500A7CF2D02E67B00378734 /* RegisterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7CD2D02E67B00378734 /* RegisterViewCell.m */; };
 		B500A7D02D02E67B00378734 /* RegisterViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B500A7CE2D02E67B00378734 /* RegisterViewCell.xib */; };
+		B500A7D32D0341B000378734 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7D22D0341B000378734 /* LoginViewModel.m */; };
+		B51859E22D06C5CF00E6DFDC /* LoginAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859E12D06C5CF00E6DFDC /* LoginAPIs.m */; };
+		B51859E52D06C5DD00E6DFDC /* LoginServices.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859E42D06C5DD00E6DFDC /* LoginServices.m */; };
+		B51859E82D06C6B400E6DFDC /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859E72D06C6B400E6DFDC /* LoginModel.m */; };
+		B51859EC2D06DB5C00E6DFDC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859EB2D06DB5C00E6DFDC /* HomeViewController.m */; };
+		B51859F02D06F45700E6DFDC /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859EE2D06F45700E6DFDC /* CategoryCollectionViewCell.m */; };
+		B51859F12D06F45700E6DFDC /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51859EF2D06F45700E6DFDC /* CategoryCollectionViewCell.xib */; };
+		B51859F72D0713D000E6DFDC /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859F62D0713D000E6DFDC /* ProductListViewController.m */; };
+		B51859FB2D07239E00E6DFDC /* ProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B51859F92D07239E00E6DFDC /* ProductListTableViewCell.m */; };
+		B51859FC2D07239E00E6DFDC /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51859FA2D07239E00E6DFDC /* ProductListTableViewCell.xib */; };
+		B5185A012D07286900E6DFDC /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5185A002D07286900E6DFDC /* ProductListViewModel.m */; };
+		B5185A052D07337300E6DFDC /* ProductListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5185A042D07337300E6DFDC /* ProductListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +73,28 @@
 		B500A7CC2D02E67B00378734 /* RegisterViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewCell.h; sourceTree = "<group>"; };
 		B500A7CD2D02E67B00378734 /* RegisterViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewCell.m; sourceTree = "<group>"; };
 		B500A7CE2D02E67B00378734 /* RegisterViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewCell.xib; sourceTree = "<group>"; };
+		B500A7D12D0341B000378734 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		B500A7D22D0341B000378734 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		B51859E02D06C5CF00E6DFDC /* LoginAPIs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAPIs.h; sourceTree = "<group>"; };
+		B51859E12D06C5CF00E6DFDC /* LoginAPIs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAPIs.m; sourceTree = "<group>"; };
+		B51859E32D06C5DD00E6DFDC /* LoginServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginServices.h; sourceTree = "<group>"; };
+		B51859E42D06C5DD00E6DFDC /* LoginServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginServices.m; sourceTree = "<group>"; };
+		B51859E62D06C6B400E6DFDC /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		B51859E72D06C6B400E6DFDC /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		B51859EA2D06DB5C00E6DFDC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B51859EB2D06DB5C00E6DFDC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B51859ED2D06F45700E6DFDC /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		B51859EE2D06F45700E6DFDC /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		B51859EF2D06F45700E6DFDC /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		B51859F52D0713D000E6DFDC /* ProductListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		B51859F62D0713D000E6DFDC /* ProductListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		B51859F82D07239E00E6DFDC /* ProductListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListTableViewCell.h; sourceTree = "<group>"; };
+		B51859F92D07239E00E6DFDC /* ProductListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListTableViewCell.m; sourceTree = "<group>"; };
+		B51859FA2D07239E00E6DFDC /* ProductListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListTableViewCell.xib; sourceTree = "<group>"; };
+		B51859FF2D07286900E6DFDC /* ProductListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
+		B5185A002D07286900E6DFDC /* ProductListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
+		B5185A032D07337300E6DFDC /* ProductListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListModel.h; sourceTree = "<group>"; };
+		B5185A042D07337300E6DFDC /* ProductListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +156,7 @@
 		B500A7982D02DE3600378734 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				B51859F32D0713B000E6DFDC /* ProductList */,
 				B500A7A02D02DEA600378734 /* Home */,
 				B500A79F2D02DE9300378734 /* ForgotPassword */,
 				B500A79E2D02DE8C00378734 /* Register */,
@@ -205,6 +240,9 @@
 		B500A7A12D02DEAD00378734 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B51859F22D06F4FC00E6DFDC /* Cell */,
+				B51859EA2D06DB5C00E6DFDC /* HomeViewController.h */,
+				B51859EB2D06DB5C00E6DFDC /* HomeViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,6 +301,8 @@
 		B500A7A92D02DEFD00378734 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B500A7D12D0341B000378734 /* LoginViewModel.h */,
+				B500A7D22D0341B000378734 /* LoginViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -270,6 +310,8 @@
 		B500A7B02D02E37300378734 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B5185A022D07335C00E6DFDC /* ProductList */,
+				B51859E92D06C6F400E6DFDC /* Login */,
 				B500A7B12D02E37C00378734 /* Register */,
 			);
 			path = Models;
@@ -287,6 +329,7 @@
 		B500A7B52D02E3C900378734 /* Repo */ = {
 			isa = PBXGroup;
 			children = (
+				B51859DF2D06C5BA00E6DFDC /* Login */,
 				B500A7B62D02E3D700378734 /* Register */,
 			);
 			path = Repo;
@@ -327,6 +370,83 @@
 				B500A7CE2D02E67B00378734 /* RegisterViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		B51859DF2D06C5BA00E6DFDC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B51859E02D06C5CF00E6DFDC /* LoginAPIs.h */,
+				B51859E12D06C5CF00E6DFDC /* LoginAPIs.m */,
+				B51859E32D06C5DD00E6DFDC /* LoginServices.h */,
+				B51859E42D06C5DD00E6DFDC /* LoginServices.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B51859E92D06C6F400E6DFDC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B51859E62D06C6B400E6DFDC /* LoginModel.h */,
+				B51859E72D06C6B400E6DFDC /* LoginModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B51859F22D06F4FC00E6DFDC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B51859ED2D06F45700E6DFDC /* CategoryCollectionViewCell.h */,
+				B51859EE2D06F45700E6DFDC /* CategoryCollectionViewCell.m */,
+				B51859EF2D06F45700E6DFDC /* CategoryCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B51859F32D0713B000E6DFDC /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				B51859FE2D07284E00E6DFDC /* ViewModel */,
+				B51859F42D0713BB00E6DFDC /* View */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		B51859F42D0713BB00E6DFDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B51859FD2D0723A600E6DFDC /* Cell */,
+				B51859F52D0713D000E6DFDC /* ProductListViewController.h */,
+				B51859F62D0713D000E6DFDC /* ProductListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B51859FD2D0723A600E6DFDC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B51859F82D07239E00E6DFDC /* ProductListTableViewCell.h */,
+				B51859F92D07239E00E6DFDC /* ProductListTableViewCell.m */,
+				B51859FA2D07239E00E6DFDC /* ProductListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B51859FE2D07284E00E6DFDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B51859FF2D07286900E6DFDC /* ProductListViewModel.h */,
+				B5185A002D07286900E6DFDC /* ProductListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5185A022D07335C00E6DFDC /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				B5185A032D07337300E6DFDC /* ProductListModel.h */,
+				B5185A042D07337300E6DFDC /* ProductListModel.m */,
+			);
+			path = ProductList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +507,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B500A78E2D02DDD600378734 /* LaunchScreen.storyboard in Resources */,
+				B51859FC2D07239E00E6DFDC /* ProductListTableViewCell.xib in Resources */,
+				B51859F12D06F45700E6DFDC /* CategoryCollectionViewCell.xib in Resources */,
 				B500A7D02D02E67B00378734 /* RegisterViewCell.xib in Resources */,
 				B500A78B2D02DDD600378734 /* Assets.xcassets in Resources */,
 				B500A7892D02DDD400378734 /* Main.storyboard in Resources */,
@@ -400,19 +522,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51859F02D06F45700E6DFDC /* CategoryCollectionViewCell.m in Sources */,
 				B500A7AC2D02E28300378734 /* RegisterViewModel.m in Sources */,
 				B500A7AF2D02E29600378734 /* RegisterViewController.m in Sources */,
 				B500A7C72D02E4F100378734 /* TextFieldExtension.m in Sources */,
+				B51859E52D06C5DD00E6DFDC /* LoginServices.m in Sources */,
+				B51859E82D06C6B400E6DFDC /* LoginModel.m in Sources */,
 				B500A7862D02DDD400378734 /* LoginViewController.m in Sources */,
 				B500A7C22D02E47A00378734 /* NetworkManager.m in Sources */,
 				B500A7B92D02E3FF00378734 /* RegisterAPIs.m in Sources */,
 				B500A7802D02DDD400378734 /* AppDelegate.m in Sources */,
 				B500A7CF2D02E67B00378734 /* RegisterViewCell.m in Sources */,
+				B500A7D32D0341B000378734 /* LoginViewModel.m in Sources */,
+				B51859F72D0713D000E6DFDC /* ProductListViewController.m in Sources */,
 				B500A7912D02DDD600378734 /* main.m in Sources */,
 				B500A7CA2D02E54F00378734 /* ForgotViewController.m in Sources */,
+				B51859FB2D07239E00E6DFDC /* ProductListTableViewCell.m in Sources */,
 				B500A7B42D02E39A00378734 /* RegisterModel.m in Sources */,
+				B51859E22D06C5CF00E6DFDC /* LoginAPIs.m in Sources */,
 				B500A7BC2D02E41000378734 /* RegisterServices.m in Sources */,
+				B5185A052D07337300E6DFDC /* ProductListModel.m in Sources */,
 				B500A7BF2D02E46700378734 /* APIRequest.m in Sources */,
+				B51859EC2D06DB5C00E6DFDC /* HomeViewController.m in Sources */,
+				B5185A012D07286900E6DFDC /* ProductListViewModel.m in Sources */,
 				B500A7832D02DDD400378734 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +695,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,6 +722,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

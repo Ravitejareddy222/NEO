@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6 - 722c5241f2821768"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "768">
-               </Location>
-               <Location
-                  uuid = "4C6EC425-637D-4032-9A9B-41FC26C6F5E6 - bd89b91c8accef43"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__89-[RegisterViewModel saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:]_block_invoke"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "66">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D37110DC-506E-4BE6-AB6E-F7F8D089041B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -62,8 +14,8 @@
             filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "-registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:"
             landmarkType = "7">
          </BreakpointContent>
@@ -71,47 +23,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "52DA667A-A1E8-4394-989F-E338065BEF05"
+            uuid = "BD995037-C5AD-462A-979A-7E08E841DAF9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NEO/BusinessLayer/Repo/Register/RegisterServices.m"
+            filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "-saveUserData:completion:"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "52DA667A-A1E8-4394-989F-E338065BEF05 - 4a4452880d4ee221"
+                  uuid = "BD995037-C5AD-462A-979A-7E08E841DAF9 - 8d43adc53508e0eb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[RegisterServices saveUserData:completion:]"
+                  symbolName = "-[RegisterViewController viewDidLoad]"
                   moduleName = "NEO"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repo/Register/RegisterServices.m"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "180">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "555">
                </Location>
                <Location
-                  uuid = "52DA667A-A1E8-4394-989F-E338065BEF05 - 4a4452880d4ee1c6"
+                  uuid = "BD995037-C5AD-462A-979A-7E08E841DAF9 - a7f17ad133e29ff7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[RegisterServices saveUserData:completion:]"
+                  symbolName = "__37-[RegisterViewController viewDidLoad]_block_invoke"
                   moduleName = "NEO"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repo/Register/RegisterServices.m"
+                  urlString = "file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.4.sdk/usr/include/dispatch/queue.h"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "148">
+                  startingLineNumber = "590"
+                  endingLineNumber = "590"
+                  offsetFromSymbolStart = "20">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -119,97 +71,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "646E5CD9-FFCC-44F8-B3C9-01CBA7C1005A"
+            uuid = "177858CE-7025-484C-9BCF-39029A44D2F3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
+            filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "-saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "033E20CF-E7CF-4A48-9C2A-37F2E2DF4124"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Register/ViewModel/RegisterViewModel.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-saveUser:lastname:email:password:confirmPassword:phoneNumber:gender:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FDD95C29-3FD5-4002-BDB2-2B5C720D37B1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/BusinessLayer/Repo/Register/RegisterServices.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-saveUserData:completion:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C32DD385-3AC4-413F-BA18-68DBFF704F33"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/DataLayer/NetworkManager.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "-performDataRequestWithPath:method:parameters:completion:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8CDF1DE0-3163-4D51-AD8A-EC40DD24C235"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/DataLayer/NetworkManager.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-performDataRequestWithPath:method:parameters:completion:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6D2D731B-67E6-453A-AA12-4009D214DEFD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/BusinessLayer/Repo/Register/RegisterServices.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "-saveUserData:completion:"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "177858CE-7025-484C-9BCF-39029A44D2F3 - 8d43adc53508e395"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewController viewDidLoad]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "695">
+               </Location>
+               <Location
+                  uuid = "177858CE-7025-484C-9BCF-39029A44D2F3 - d0af5b62d53a1eed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[RegisterViewController viewDidLoad]_block_invoke.28"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

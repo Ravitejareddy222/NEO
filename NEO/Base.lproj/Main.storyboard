@@ -166,6 +166,95 @@
             </objects>
             <point key="canvasLocation" x="3264.8854961832058" y="-225.35211267605635"/>
         </scene>
+        <!--Home View Controller-->
+        <scene sceneID="uWa-l6-SeU">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="gY1-rH-Ifd" customClass="HomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HjP-tq-IQH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEX-JO-zg9">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slider_img1" translatesAutoresizingMaskIntoConstraints="NO" id="PNg-1m-bmw">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="280"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="280" id="kjo-1Q-frz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6eS-Ay-Z3B">
+                                        <rect key="frame" x="0.0" y="308" width="393" height="485"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jv4-Ky-ahG">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="PNg-1m-bmw" firstAttribute="top" secondItem="uEX-JO-zg9" secondAttribute="top" id="XK7-pL-Wix"/>
+                                    <constraint firstItem="6eS-Ay-Z3B" firstAttribute="leading" secondItem="uEX-JO-zg9" secondAttribute="leading" id="YLn-dJ-HAK"/>
+                                    <constraint firstItem="6eS-Ay-Z3B" firstAttribute="top" secondItem="PNg-1m-bmw" secondAttribute="bottom" constant="28" id="Znk-nc-zZ8"/>
+                                    <constraint firstAttribute="bottom" secondItem="6eS-Ay-Z3B" secondAttribute="bottom" id="b1H-qZ-hh9"/>
+                                    <constraint firstAttribute="trailing" secondItem="6eS-Ay-Z3B" secondAttribute="trailing" id="nsm-JW-Nmv"/>
+                                    <constraint firstItem="PNg-1m-bmw" firstAttribute="leading" secondItem="uEX-JO-zg9" secondAttribute="leading" id="o14-IY-3nK"/>
+                                    <constraint firstAttribute="trailing" secondItem="PNg-1m-bmw" secondAttribute="trailing" id="wxc-fe-d42"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gV0-TF-sBV"/>
+                        <color key="backgroundColor" name="primaryColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uEX-JO-zg9" secondAttribute="bottom" id="32O-IX-mho"/>
+                            <constraint firstItem="uEX-JO-zg9" firstAttribute="top" secondItem="gV0-TF-sBV" secondAttribute="top" id="Pwe-ig-syW"/>
+                            <constraint firstItem="uEX-JO-zg9" firstAttribute="leading" secondItem="gV0-TF-sBV" secondAttribute="leading" id="V0t-1Y-DaJ"/>
+                            <constraint firstItem="uEX-JO-zg9" firstAttribute="trailing" secondItem="gV0-TF-sBV" secondAttribute="trailing" id="hcE-c9-qTL"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="852"/>
+                    <connections>
+                        <outlet property="collectionView" destination="6eS-Ay-Z3B" id="MOb-5x-8pg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MlY-cI-sBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4070.9923664122134" y="-225.35211267605635"/>
+        </scene>
+        <!--Product List View Controller-->
+        <scene sceneID="dqy-52-CSk">
+            <objects>
+                <viewController storyboardIdentifier="ProductListViewController" id="VQ1-x4-HS5" customClass="ProductListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gJp-Fa-xZw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Rb-XF-LdP">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qkk-yC-08f"/>
+                        <color key="backgroundColor" name="primaryColor"/>
+                        <constraints>
+                            <constraint firstItem="4Rb-XF-LdP" firstAttribute="leading" secondItem="Qkk-yC-08f" secondAttribute="leading" id="2Oa-u7-8Zs"/>
+                            <constraint firstAttribute="bottom" secondItem="4Rb-XF-LdP" secondAttribute="bottom" id="2nc-ka-ZyA"/>
+                            <constraint firstItem="4Rb-XF-LdP" firstAttribute="top" secondItem="Qkk-yC-08f" secondAttribute="top" id="9p7-3s-Pla"/>
+                            <constraint firstItem="4Rb-XF-LdP" firstAttribute="trailing" secondItem="Qkk-yC-08f" secondAttribute="trailing" id="AQ2-s3-EhT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="4Rb-XF-LdP" id="FDM-du-hzX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LKA-DE-Djr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4794.6564885496182" y="-225.35211267605635"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="xLt-bt-obs">
             <objects>
@@ -187,9 +276,13 @@
     </scenes>
     <resources>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="slider_img1" width="1500" height="750"/>
         <namedColor name="primaryColor">
-            <color red="0.82745098039215681" green="0.21176470588235294" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.82700002193450928" green="0.21199999749660492" blue="0.16899999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

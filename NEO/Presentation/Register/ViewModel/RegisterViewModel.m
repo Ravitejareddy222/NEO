@@ -25,14 +25,14 @@
     
     [self.registerProtocol saveUserData:_params completion:^(UserResponse * _Nullable response, NSError * _Nullable error) {
             if (error) {
-                //[self registerDetailFetchFailure:@"An error occurred while registering."];
+                self.registerDetailFetchFailure(@"An error occurred while registering.");
                 return;
             }
             
             if (response.status.boolValue) {
-               // [self registerDetailFetchSuccessful];
+                self.registerDetailFetchSuccessful();
             } else {
-               // [self registerDetailFetchFailure:response.userMsg ?: @"Registration failed."];
+                self.registerDetailFetchFailure(@"An error occurred while registering.");
             }
         }];
 }

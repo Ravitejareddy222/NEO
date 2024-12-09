@@ -24,7 +24,18 @@
     UINib *nib = [UINib nibWithNibName:@"RegisterViewCell" bundle:nil];
     [self.registerTableView registerNib:nib forCellReuseIdentifier:@"RegisterViewCell"];
     
+    self.viewModel.registerDetailFetchSuccessful = ^{
+        dispatch_async(dispatch_get_main_queue(), ^{
+                [self.navigationController popViewControllerAnimated:YES];
+            });
+    };
+
+    self.viewModel.registerDetailFetchFailure = ^(NSString *errorMessage){
+        NSLog(@"Registration Failed: %@", errorMessage);
+    };
 }
+
+
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     RegisterViewCell *cell = (RegisterViewCell *)[ tableView dequeueReusableCellWithIdentifier: @"RegisterViewCell" forIndexPath:indexPath];

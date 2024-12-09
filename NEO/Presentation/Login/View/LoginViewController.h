@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TextFieldExtension.h"
+#import "LoginViewModel.h"
 
 @interface LoginViewController : UIViewController
 
@@ -20,5 +21,7 @@
 - (IBAction)loginButtonTapped:(id)sender;
 - (IBAction)registerButtonTapped:(id)sender;
 - (IBAction)ForgotPasswordTapped:(id)sender;
+
+@property (strong, nonatomic) LoginViewModel *loginViewModel;
 
 @end
