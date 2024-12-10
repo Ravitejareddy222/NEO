@@ -12,7 +12,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     _categoryNameList = @[@"Tables", @"Sofas", @"Chairs", @"Cupboards"];
-    _categoryImageList = @[@"table", @"storelocator_icon", @"chair", @"cupboard-icon"];
+    _categoryImageList = @[@"table", @"Sofa_01", @"chair", @"cupboard-icon"];
 }
 
 -(void) configure: (NSInteger)item{

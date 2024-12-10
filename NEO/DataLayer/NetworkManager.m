@@ -34,40 +34,60 @@
                             method:(NSString *)method
                         parameters:(NSDictionary *)parameters
                         completion:(void (^)(id _Nullable, NSError * _Nullable))completion {
+    
     NSURL *url = [NSURL URLWithString:path];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = method;
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
-
-    if (parameters) {
-        // Create a mutable string to store the body
-        NSMutableString *bodyString = [NSMutableString string];
+   
+    if ([method isEqualToString:@"GET"] && parameters) {
+        NSMutableArray *queryItems = [NSMutableArray array];
         
-        // Iterate over the parameters and URL-encode them
-        for (NSString *key in parameters.allKeys) {
+        for (NSString *key in parameters) {
             NSString *value = [NSString stringWithFormat:@"%@", parameters[key]];
-            
-            // URL encode both the key and value
+           
             NSString *encodedKey = [key stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+           
             NSString *encodedValue = [value stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
             
-            // Append the encoded key-value pair to the body string
-            if (bodyString.length > 0) {
-                [bodyString appendString:@"&"];
-            }
-            [bodyString appendFormat:@"%@=%@", encodedKey, encodedValue];
+            [queryItems addObject:[NSString stringWithFormat:@"%@=%@", encodedKey, encodedValue]];
         }
         
-        // Set the HTTPBody with the URL-encoded parameters
-        request.HTTPBody = [bodyString dataUsingEncoding:NSUTF8StringEncoding];
+        NSString *queryString = [queryItems componentsJoinedByString:@"&"];
+        NSString *fullURLString = [NSString stringWithFormat:@"%@?%@", path, queryString];
+        request.URL = [NSURL URLWithString:fullURLString];
     }
-
+    
+    // Handle POST method: set content type and encode parameters in HTTPBody
+    if ([method isEqualToString:@"POST"]) {
+        [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+        
+        if (parameters) {
+            NSMutableString *bodyString = [NSMutableString string];
+            
+            for (NSString *key in parameters) {
+                NSString *value = [NSString stringWithFormat:@"%@", parameters[key]];
+                
+                NSString *encodedKey =
+                 [key stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+               
+                NSString *encodedValue = [value stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+                
+                if (bodyString.length > 0) {
+                    [bodyString appendString:@"&"];
+                }
+                [bodyString appendFormat:@"%@=%@", encodedKey, encodedValue];
+            }
+            
+            request.HTTPBody = [bodyString dataUsingEncoding:NSUTF8StringEncoding];
+        }
+    }
+    
     NSURLSessionDataTask *task = [self.session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (error) {
             completion(nil, error);
             return;
         }
-
+        
         id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         completion(json, nil);
     }];

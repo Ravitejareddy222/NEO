@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AF8F0557686B1D5EC0809CE /* Pods_NEO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5F633B4C1FD65CD3E06D25 /* Pods_NEO.framework */; };
 		B500A7802D02DDD400378734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A77F2D02DDD400378734 /* AppDelegate.m */; };
 		B500A7832D02DDD400378734 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7822D02DDD400378734 /* SceneDelegate.m */; };
 		B500A7862D02DDD400378734 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A7852D02DDD400378734 /* LoginViewController.m */; };
@@ -37,9 +38,12 @@
 		B51859FC2D07239E00E6DFDC /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51859FA2D07239E00E6DFDC /* ProductListTableViewCell.xib */; };
 		B5185A012D07286900E6DFDC /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5185A002D07286900E6DFDC /* ProductListViewModel.m */; };
 		B5185A052D07337300E6DFDC /* ProductListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5185A042D07337300E6DFDC /* ProductListModel.m */; };
+		B53E6E542D080FA200CDDA6C /* ProductListAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E6E532D080FA200CDDA6C /* ProductListAPIs.m */; };
+		B53E6E572D080FBB00CDDA6C /* ProductListServices.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E6E562D080FBB00CDDA6C /* ProductListServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E4BA7BBF85957646A422D99 /* Pods-NEO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEO.debug.xcconfig"; path = "Target Support Files/Pods-NEO/Pods-NEO.debug.xcconfig"; sourceTree = "<group>"; };
 		B500A77B2D02DDD400378734 /* NEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B500A77E2D02DDD400378734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B500A77F2D02DDD400378734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +99,12 @@
 		B5185A002D07286900E6DFDC /* ProductListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
 		B5185A032D07337300E6DFDC /* ProductListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListModel.h; sourceTree = "<group>"; };
 		B5185A042D07337300E6DFDC /* ProductListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListModel.m; sourceTree = "<group>"; };
+		B53E6E522D080FA200CDDA6C /* ProductListAPIs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListAPIs.h; sourceTree = "<group>"; };
+		B53E6E532D080FA200CDDA6C /* ProductListAPIs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListAPIs.m; sourceTree = "<group>"; };
+		B53E6E552D080FBB00CDDA6C /* ProductListServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListServices.h; sourceTree = "<group>"; };
+		B53E6E562D080FBB00CDDA6C /* ProductListServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListServices.m; sourceTree = "<group>"; };
+		C68D9D89F8B0902428FF05CC /* Pods-NEO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEO.release.xcconfig"; path = "Target Support Files/Pods-NEO/Pods-NEO.release.xcconfig"; sourceTree = "<group>"; };
+		DB5F633B4C1FD65CD3E06D25 /* Pods_NEO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,17 +112,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF8F0557686B1D5EC0809CE /* Pods_NEO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		088E412CB745D6A6B785C3F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E4BA7BBF85957646A422D99 /* Pods-NEO.debug.xcconfig */,
+				C68D9D89F8B0902428FF05CC /* Pods-NEO.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69C04D9BC46BED5BE2F0F8A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB5F633B4C1FD65CD3E06D25 /* Pods_NEO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B500A7722D02DDD400378734 = {
 			isa = PBXGroup;
 			children = (
 				B500A77D2D02DDD400378734 /* NEO */,
 				B500A77C2D02DDD400378734 /* Products */,
+				088E412CB745D6A6B785C3F3 /* Pods */,
+				69C04D9BC46BED5BE2F0F8A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,7 +199,7 @@
 		B500A7992D02DE3F00378734 /* BusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
-				B500A7B52D02E3C900378734 /* Repo */,
+				B500A7B52D02E3C900378734 /* Repositories */,
 				B500A7B02D02E37300378734 /* Models */,
 			);
 			path = BusinessLayer;
@@ -326,13 +357,14 @@
 			path = Register;
 			sourceTree = "<group>";
 		};
-		B500A7B52D02E3C900378734 /* Repo */ = {
+		B500A7B52D02E3C900378734 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				B53E6E512D080F8C00CDDA6C /* ProductList */,
 				B51859DF2D06C5BA00E6DFDC /* Login */,
 				B500A7B62D02E3D700378734 /* Register */,
 			);
-			path = Repo;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		B500A7B62D02E3D700378734 /* Register */ = {
@@ -449,6 +481,17 @@
 			path = ProductList;
 			sourceTree = "<group>";
 		};
+		B53E6E512D080F8C00CDDA6C /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				B53E6E522D080FA200CDDA6C /* ProductListAPIs.h */,
+				B53E6E532D080FA200CDDA6C /* ProductListAPIs.m */,
+				B53E6E552D080FBB00CDDA6C /* ProductListServices.h */,
+				B53E6E562D080FBB00CDDA6C /* ProductListServices.m */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -456,9 +499,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B500A7942D02DDD600378734 /* Build configuration list for PBXNativeTarget "NEO" */;
 			buildPhases = (
+				31FBFCFDE4B509B8E691F2E6 /* [CP] Check Pods Manifest.lock */,
 				B500A7772D02DDD400378734 /* Sources */,
 				B500A7782D02DDD400378734 /* Frameworks */,
 				B500A7792D02DDD400378734 /* Resources */,
+				D3096EF855F07AA5921EAB58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -517,13 +562,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31FBFCFDE4B509B8E691F2E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NEO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3096EF855F07AA5921EAB58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NEO/Pods-NEO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NEO/Pods-NEO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NEO/Pods-NEO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B500A7772D02DDD400378734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53E6E542D080FA200CDDA6C /* ProductListAPIs.m in Sources */,
 				B51859F02D06F45700E6DFDC /* CategoryCollectionViewCell.m in Sources */,
 				B500A7AC2D02E28300378734 /* RegisterViewModel.m in Sources */,
+				B53E6E572D080FBB00CDDA6C /* ProductListServices.m in Sources */,
 				B500A7AF2D02E29600378734 /* RegisterViewController.m in Sources */,
 				B500A7C72D02E4F100378734 /* TextFieldExtension.m in Sources */,
 				B51859E52D06C5DD00E6DFDC /* LoginServices.m in Sources */,
@@ -683,6 +772,7 @@
 		};
 		B500A7952D02DDD600378734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4BA7BBF85957646A422D99 /* Pods-NEO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -710,6 +800,7 @@
 		};
 		B500A7962D02DDD600378734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68D9D89F8B0902428FF05CC /* Pods-NEO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

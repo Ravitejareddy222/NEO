@@ -30,9 +30,9 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JfY-vW-LAW">
                                 <rect key="frame" x="88" y="12" width="212" height="29"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stylish modern dining Tables" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrp-wE-Zpr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Stylish modern dining Tables" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrp-wE-Zpr">
                                         <rect key="frame" x="0.0" y="0.0" width="212" height="17"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aron Table Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtM-xy-jwX">
@@ -94,6 +94,12 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="productCost" destination="q2Q-SA-K3A" id="x1g-DT-F3d"/>
+                <outlet property="productImage" destination="sLu-Y8-tfn" id="H4Q-LA-CMf"/>
+                <outlet property="productName" destination="nrp-wE-Zpr" id="Rcw-09-Keh"/>
+                <outlet property="productProducer" destination="TtM-xy-jwX" id="2xU-oD-M13"/>
+            </connections>
             <point key="canvasLocation" x="74.809160305343511" y="13.380281690140846"/>
         </tableViewCell>
     </objects>

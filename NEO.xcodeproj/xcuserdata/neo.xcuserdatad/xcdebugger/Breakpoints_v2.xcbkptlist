@@ -14,48 +14,256 @@
             filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D37110DC-506E-4BE6-AB6E-F7F8D089041B - 919ecee584fb8f36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewController registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "209">
+               </Location>
+               <Location
+                  uuid = "D37110DC-506E-4BE6-AB6E-F7F8D089041B - 919ecee584fb8f57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewController registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "255">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F89BB1A-9891-4528-B920-47939CC66FCC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "-getproductListData:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F89BB1A-9891-4528-B920-47939CC66FCC - 591598f9658db920"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ProductListServices getproductListData:completion:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "4F89BB1A-9891-4528-B920-47939CC66FCC - 591598f9658db901"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ProductListServices getproductListData:completion:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14B0FE6C-00A4-43CC-8732-DA8E56BF9947"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-getproductListData:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14B0FE6C-00A4-43CC-8732-DA8E56BF9947 - 8bd70af9f8ff41f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[ProductListServices getproductListData:completion:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "14B0FE6C-00A4-43CC-8732-DA8E56BF9947 - 8bd70af9f8ff41d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[ProductListServices getproductListData:completion:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "185">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE041B3C-0553-4375-A255-505586BB4B62"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-getproductListData:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE041B3C-0553-4375-A255-505586BB4B62 - 8bd70af9f8ff4053"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[ProductListServices getproductListData:completion:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "FE041B3C-0553-4375-A255-505586BB4B62 - 8bd70af9f8ff4053"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[ProductListServices getproductListData:completion:]_block_invoke"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/BusinessLayer/Repositories/ProductList/ProductListServices.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "81">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB408EDD-6CCF-4B2C-9CE6-FB6555CE16F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/DataLayer/NetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-performDataRequestWithPath:method:parameters:completion:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BD995037-C5AD-462A-979A-7E08E841DAF9"
+            uuid = "DF1C8E3C-07C9-44B0-AAAB-6FE66F965490"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
+            filePath = "NEO/DataLayer/NetworkManager.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-performDataRequestWithPath:method:parameters:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B49BE7D5-5CFC-4D25-935F-AA92FF0A84D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/Presentation/Login/View/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-manageObservers"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "BD995037-C5AD-462A-979A-7E08E841DAF9 - 8d43adc53508e0eb"
+                  uuid = "B49BE7D5-5CFC-4D25-935F-AA92FF0A84D7 - 41d7786dbf379e63"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[RegisterViewController viewDidLoad]"
+                  symbolName = "-[LoginViewController manageObservers]"
                   moduleName = "NEO"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Login/View/LoginViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "555">
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  uuid = "BD995037-C5AD-462A-979A-7E08E841DAF9 - a7f17ad133e29ff7"
+                  uuid = "B49BE7D5-5CFC-4D25-935F-AA92FF0A84D7 - 9050a863accb3869"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__37-[RegisterViewController viewDidLoad]_block_invoke"
+                  symbolName = "__38-[LoginViewController manageObservers]_block_invoke"
                   moduleName = "NEO"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.4.sdk/usr/include/dispatch/queue.h"
@@ -64,54 +272,6 @@
                   startingLineNumber = "590"
                   endingLineNumber = "590"
                   offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "177858CE-7025-484C-9BCF-39029A44D2F3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "177858CE-7025-484C-9BCF-39029A44D2F3 - 8d43adc53508e395"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[RegisterViewController viewDidLoad]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "695">
-               </Location>
-               <Location
-                  uuid = "177858CE-7025-484C-9BCF-39029A44D2F3 - d0af5b62d53a1eed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__37-[RegisterViewController viewDidLoad]_block_invoke.28"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "41">
                </Location>
             </Locations>
          </BreakpointContent>

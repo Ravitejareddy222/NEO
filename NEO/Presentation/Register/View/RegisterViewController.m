@@ -17,7 +17,6 @@
     [super viewDidLoad];
     self.viewModel = [[RegisterViewModel alloc] init];
     self.viewModel.registerProtocol = [[RegisterServices alloc] init];
-
     self.registerTableView.delegate = self;
     self.registerTableView.dataSource = self;
     self.registerTableView.rowHeight = UITableViewAutomaticDimension;
@@ -34,8 +33,6 @@
         NSLog(@"Registration Failed: %@", errorMessage);
     };
 }
-
-
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     RegisterViewCell *cell = (RegisterViewCell *)[ tableView dequeueReusableCellWithIdentifier: @"RegisterViewCell" forIndexPath:indexPath];
