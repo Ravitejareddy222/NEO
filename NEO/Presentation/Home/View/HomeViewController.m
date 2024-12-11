@@ -55,7 +55,7 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     ProductListViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductListViewController"];
-    vc.categoryType = indexPath.item;
+    vc.categoryType = indexPath.item + 1;
     [self.navigationController pushViewController:vc animated:true];
 }
 

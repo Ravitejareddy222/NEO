@@ -8,6 +8,7 @@
 #import "ProductListViewController.h"
 #import "ProductListTableViewCell.h"
 #import "ProductListServices.h"
+#import "ProductDetailsViewController.h"
 
 @interface ProductListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -52,6 +53,13 @@
     ProductData *data = self.viewModel.productList[indexPath.row];
     [cell configure: data];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    ProductDetailsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductDetailsViewController"];
+    NSNumber *productId = self.viewModel.productList[indexPath.row].productId;
+    vc.productId = productId ? productId.longValue : 0;
+    [self.navigationController pushViewController:vc animated:true];
 }
 
 

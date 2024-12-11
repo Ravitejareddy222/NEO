@@ -23,6 +23,7 @@ typedef void (^LoginFailureBlock) (NSString *errorMessage);
 -(void) saveLogin: (NSString *)username password: (NSString *)password;
 
 @property (strong, nonatomic) NSMutableDictionary *params;
+@property (strong, nonatomic) LoginData *loginData;
 
 @property (nonatomic, strong) id<LoginServicesProtocol> loginProtocol;
 @end

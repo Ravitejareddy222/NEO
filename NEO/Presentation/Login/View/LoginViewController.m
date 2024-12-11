@@ -38,6 +38,9 @@
     self.loginViewModel.loginDetailsFetchSuccessfull = ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             HomeViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+            NSString *accessToken = self.loginViewModel.loginData.accessToken;
+            [[NSUserDefaults standardUserDefaults] setObject: accessToken forKey:@"accessToken"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
             [self.navigationController pushViewController: vc animated:true];
             });
     };

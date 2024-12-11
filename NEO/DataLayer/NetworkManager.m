@@ -60,6 +60,8 @@
     // Handle POST method: set content type and encode parameters in HTTPBody
     if ([method isEqualToString:@"POST"]) {
         [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+        NSString *accessToken = [[NSUserDefaults standardUserDefaults] stringForKey:@"accessToken"];
+        [request setValue: accessToken forHTTPHeaderField:@"access_token"];
         
         if (parameters) {
             NSMutableString *bodyString = [NSMutableString string];

@@ -24,6 +24,7 @@
             self.loginDetailsFetchFailure(@"An error occurred while logging.");
         }
         if(response.status.boolValue){
+            self.loginData = response.data;
             self.loginDetailsFetchSuccessfull();
         }else{
             self.loginDetailsFetchFailure(@"An error occurred while logging.");
