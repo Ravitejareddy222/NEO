@@ -38,9 +38,12 @@
     NSURL *url = [NSURL URLWithString:path];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = method;
+    NSString *accessToken = [[NSUserDefaults standardUserDefaults] stringForKey:@"accessToken"];
+    [request setValue: accessToken forHTTPHeaderField:@"access_token"];
    
     if ([method isEqualToString:@"GET"] && parameters) {
         NSMutableArray *queryItems = [NSMutableArray array];
+        
         
         for (NSString *key in parameters) {
             NSString *value = [NSString stringWithFormat:@"%@", parameters[key]];

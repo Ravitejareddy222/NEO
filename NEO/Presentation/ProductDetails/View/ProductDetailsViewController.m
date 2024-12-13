@@ -48,7 +48,9 @@
 - (IBAction)buynowButtonTapped:(id)sender {
     AddToCartViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"AddToCartViewController"];
     vc.productId = self.viewModel.productDetails.productId;
-    [self.navigationController pushViewController:vc animated:true];
+    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        vc.modalPresentationStyle = UIModalPresentationCustom;
+        [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

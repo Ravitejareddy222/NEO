@@ -6,6 +6,11 @@
 //
 
 #import "AppDelegate.h"
+#import "Storage.h"
+#import "LoginViewController.h"
+#import "HomeViewController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -15,7 +20,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//
+//    UIWindow *window = [[UIWindow alloc] init];
+//    self.window = [[UIWindow alloc] initWithFrame: window.coordinateSpace.bounds];
+//    self.window = window;
+//    NSString *accessToken = [Storage checkAccessToken];
+
+//    if (accessToken) {
+//        HomeViewController *homeViewController = [[HomeViewController alloc] init];
+//        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: homeViewController];
+//        self.window.rootViewController = navigationController;
+//    } else {
+//        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: [[LoginViewController alloc] init]];
+//        self.window.rootViewController = navigationController;
+//    }
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

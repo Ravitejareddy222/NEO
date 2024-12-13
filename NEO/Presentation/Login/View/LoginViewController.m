@@ -11,6 +11,7 @@
 #import "TextFieldExtension.h"
 #import "LoginViewModel.h"
 #import "HomeViewController.h"
+#import "Storage.h"
 
 
 @interface LoginViewController ()
@@ -39,8 +40,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             HomeViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
             NSString *accessToken = self.loginViewModel.loginData.accessToken;
-            [[NSUserDefaults standardUserDefaults] setObject: accessToken forKey:@"accessToken"];
-            [[NSUserDefaults standardUserDefaults] synchronize];
+            [Storage setAccessToken: accessToken];
             [self.navigationController pushViewController: vc animated:true];
             });
     };
