@@ -39,5 +39,26 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
++(void) saveAddrress: (NSString *)address{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSMutableArray *savedAddresses = [[defaults objectForKey:@"SavedAddressList"] mutableCopy];
+    
+    if (!savedAddresses) {
+        savedAddresses = [[NSMutableArray alloc] init];
+    }
+    
+    [savedAddresses addObject:address];
+    
+    [defaults setObject:savedAddresses forKey:@"SavedAddressList"];
+    [defaults synchronize];
+    
+}
+
++ (nonnull NSArray *)getAddressList {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSMutableArray *savedAddresses = [[defaults objectForKey:@"SavedAddressList"] mutableCopy];
+    return savedAddresses;
+}
+
 @end
 

@@ -13,6 +13,7 @@
 
 - (void)saveLogin:(nonnull NSString *)username password:(nonnull NSString *)password {
     _params = [NSMutableDictionary dictionary];
+    self.onStartLoading();
     
     [self.params setObject:username forKey:@"email"];
     [self.params setObject:password forKey:@"password"];

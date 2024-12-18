@@ -14,11 +14,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^LoginSuccessBlock)(void);
 typedef void (^LoginFailureBlock) (NSString *errorMessage);
+typedef void (^StartLoadingBlock)(void);
 
 @interface LoginViewModel : NSObject
 
 @property (copy, nonatomic) LoginSuccessBlock loginDetailsFetchSuccessfull;
 @property (copy, nonatomic) LoginFailureBlock loginDetailsFetchFailure;
+@property (nonatomic, strong) StartLoadingBlock onStartLoading;
+
 
 -(void) saveLogin: (NSString *)username password: (NSString *)password;
 

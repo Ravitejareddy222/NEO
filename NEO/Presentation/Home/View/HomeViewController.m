@@ -22,6 +22,7 @@
     [self setUpCell];
     [self setupMenu];
     [self setupNavigationBar];
+    self.categoryList = @[@"Tables", @"Sofas", @"Chairs", @"Cupboards"];
 }
 
 - (void)setupMenu {
@@ -83,10 +84,8 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     ProductListViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductListViewController"];
     vc.categoryType = indexPath.item + 1;
+    vc.listTitle = _categoryList[indexPath.item];
     [self.navigationController pushViewController:vc animated:true];
 }
-
-
-
 
 @end

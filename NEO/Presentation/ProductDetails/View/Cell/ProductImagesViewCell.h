@@ -10,8 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ProductImagesViewCell : UICollectionViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *prodImage;
 
-
+-(void) configure: (NSString *)prodImage;
 @end
 
 NS_ASSUME_NONNULL_END

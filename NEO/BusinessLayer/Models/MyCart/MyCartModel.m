@@ -20,7 +20,7 @@
         if ([dataObject isKindOfClass:[NSArray class]]) {
             NSMutableArray<MyCartData *> *cartData = [NSMutableArray array];
             for (NSDictionary *cartDict in dataObject) {
-                MyCartData *cart = [[MyCartData alloc] initWithDictionary:cartDict];
+                MyCartData *cart = [[MyCartData alloc] initWithDictionary: cartDict];
                 [cartData addObject:cart];
             }
             _data = [cartData copy];

@@ -16,30 +16,29 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="VBX-oL-nTt">
-                        <rect key="frame" x="16" y="16" width="198" height="62"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VBX-oL-nTt">
+                        <rect key="frame" x="16" y="16" width="151.33333333333334" height="62"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order ID: 15679" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-bo-GBa">
-                                <rect key="frame" x="0.0" y="0.0" width="198" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="0.0" y="0.0" width="151.33333333333334" height="24.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ordered Date: 07 Aug 24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAh-7c-5hE">
-                                <rect key="frame" x="0.0" y="35" width="198" height="27"/>
+                                <rect key="frame" x="0.0" y="44.333333333333336" width="151.33333333333334" height="17.666666666666664"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                     </stackView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RS 45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnV-6h-gdC">
-                        <rect key="frame" x="234" y="36.666666666666664" width="70" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RS 45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnV-6h-gdC">
+                        <rect key="frame" x="187.33333333333334" y="36.666666666666664" width="116.66666666666666" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="70" id="MiA-Vp-9uf"/>
                             <constraint firstAttribute="height" constant="21" id="k4Z-ey-vak"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -55,6 +54,11 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="orderDate" destination="gAh-7c-5hE" id="jKg-fu-4kS"/>
+                <outlet property="orderID" destination="eFA-bo-GBa" id="Wbf-uP-xJh"/>
+                <outlet property="orderTotal" destination="FnV-6h-gdC" id="q0H-Uv-Mku"/>
+            </connections>
             <point key="canvasLocation" x="19.847328244274809" y="19.718309859154932"/>
         </tableViewCell>
     </objects>

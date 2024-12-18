@@ -14,8 +14,8 @@
             filePath = "NEO/Presentation/Register/View/RegisterViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "-registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:"
             landmarkType = "7">
             <Locations>
@@ -47,6 +47,36 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
                   endingLineNumber = "57"
+                  offsetFromSymbolStart = "255">
+               </Location>
+               <Location
+                  uuid = "D37110DC-506E-4BE6-AB6E-F7F8D089041B - 919ecee584fb8ff0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewController registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "255">
+               </Location>
+               <Location
+                  uuid = "D37110DC-506E-4BE6-AB6E-F7F8D089041B - 919ecee584fb8fd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RegisterViewController registerButtonTapped:lastname:email:password:confirmPassword:phoneNumber:gender:]"
+                  moduleName = "NEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Register/View/RegisterViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
                   offsetFromSymbolStart = "255">
                </Location>
             </Locations>

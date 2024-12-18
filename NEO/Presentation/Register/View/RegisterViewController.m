@@ -8,6 +8,7 @@
 #import "RegisterViewController.h"
 #import "RegisterViewCell.h"
 #import "TextFieldExtension.h"
+#import "UIViewController+Title.h"
 
 @interface RegisterViewController () <UITableViewDelegate, UITableViewDataSource, RegisterViewCellDelegate>
 @end
@@ -15,6 +16,7 @@
 @implementation RegisterViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setCustomTitle:@"Register"];
     self.viewModel = [[RegisterViewModel alloc] init];
     self.viewModel.registerProtocol = [[RegisterServices alloc] init];
     self.registerTableView.delegate = self;
@@ -22,6 +24,8 @@
     self.registerTableView.rowHeight = UITableViewAutomaticDimension;
     UINib *nib = [UINib nibWithNibName:@"RegisterViewCell" bundle:nil];
     [self.registerTableView registerNib:nib forCellReuseIdentifier:@"RegisterViewCell"];
+    
+    //[self setCustomBackButtonWithTitle:@"Back"];
     
     self.viewModel.registerDetailFetchSuccessful = ^{
         dispatch_async(dispatch_get_main_queue(), ^{

@@ -34,13 +34,7 @@
                 } else {
                     completion(productDetailsResponse, nil);
                 }
-            } else {
-                NSLog(@"Error: Expected NSDictionary but received %@", [data class]);
-                NSError *typeError = [NSError errorWithDomain:@"ProductDetailsDomain"
-                                                         code:101
-                                                     userInfo:@{NSLocalizedDescriptionKey: @"Invalid data format"}];
-                completion(nil, typeError);
-            }
+            } 
         }
     }];
 }

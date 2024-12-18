@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ProductListViewController : UIViewController
 
 @property (nonatomic, assign) NSInteger categoryType;
+@property (nonatomic, copy) NSString *listTitle;
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) ProductListViewModel *viewModel;
 

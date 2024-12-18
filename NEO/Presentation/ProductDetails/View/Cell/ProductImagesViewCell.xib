@@ -22,6 +22,10 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slider_img4" translatesAutoresizingMaskIntoConstraints="NO" id="V9e-AE-MYi">
                                 <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="HpJ-No-FDL"/>
+                                    <constraint firstAttribute="width" constant="120" id="W9F-HW-TGE"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -42,6 +46,9 @@
                 <constraint firstAttribute="trailing" secondItem="oQp-Zw-trW" secondAttribute="trailing" id="lxt-xt-S1G"/>
             </constraints>
             <size key="customSize" width="120" height="125"/>
+            <connections>
+                <outlet property="prodImage" destination="V9e-AE-MYi" id="gTf-K4-nRA"/>
+            </connections>
             <point key="canvasLocation" x="73.282442748091597" y="-7.042253521126761"/>
         </collectionViewCell>
     </objects>

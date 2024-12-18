@@ -13,7 +13,7 @@
                               image:(UIImage *)image
                     placeholderText:(NSString *)placeholderText {
     UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
-    UIImageView *leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(8, 8, 18, 18)];
+    UIImageView *leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(8, 12, 18, 18)];
     leftImageView.image = image;
     leftImageView.tintColor = [UIColor whiteColor];
     [leftView addSubview:leftImageView];

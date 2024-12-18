@@ -10,14 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ProductListTableViewCell : UITableViewCell
+@interface ProductListTableViewCell : UITableViewCell<UICollectionViewDelegate, UICollectionViewDataSource>
 -(void) configure: (ProductData *)data;
 @property (strong, nonatomic) IBOutlet UILabel *productName;
 @property (strong, nonatomic) IBOutlet UILabel *productProducer;
 @property (strong, nonatomic) IBOutlet UILabel *productCost;
 @property (strong, nonatomic) IBOutlet UIImageView *productImage;
 
-
+@property (strong, nonatomic) IBOutlet UICollectionView *ratingCollectionView;
 
 @end
 

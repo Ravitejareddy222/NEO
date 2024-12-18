@@ -9,6 +9,8 @@
 #import "ProductListTableViewCell.h"
 #import "ProductListServices.h"
 #import "ProductDetailsViewController.h"
+#import "Loader.h"
+#import "UIViewController+Title.h"
 
 @interface ProductListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -18,7 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *setTitle = [NSString stringWithFormat:@"%@", _listTitle];
+    [self setCustomTitle:setTitle];
     [self setUpTableView];
+    [Loader setUpLoaderInView:self.view];
+    [Loader showLoaderInView:self.view];
     [self fetchData];
     
 }
@@ -37,6 +43,7 @@
     self.viewModel.productListFetchSuccessfull = ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             [self->_tableView reloadData];
+            [Loader hideLoaderInView:self.view];
             });
     };
     [_viewModel getProductList: _categoryType];

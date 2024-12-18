@@ -20,4 +20,13 @@
     // Configure the view for the selected state
 }
 
+- (void)configure:(nonnull OrdersListData *)data {
+   
+    NSNumber * prodId = data.productId;
+    _orderID.text = [NSString stringWithFormat:@"Order ID %@", prodId];
+    _orderDate.text = [NSString stringWithFormat:@"Ordered Date %@", data.created];
+    NSNumber * cost = data.productId;
+    _orderTotal.text = [NSString stringWithFormat:@"₹ %@", cost];
+}
+
 @end

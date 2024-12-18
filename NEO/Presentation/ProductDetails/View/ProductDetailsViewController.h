@@ -7,10 +7,11 @@
 
 #import <UIKit/UIKit.h>
 #import "ProductDetailsViewModel.h"
+#import "ProductImagesViewCell.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ProductDetailsViewController : UIViewController
+@interface ProductDetailsViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) IBOutlet UILabel *productName;
 @property (strong, nonatomic) IBOutlet UILabel *productCategory;
@@ -27,6 +28,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) long productId;
 @property (nonatomic, strong) ProductDetailsViewModel *viewModel;
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+
+@property (nonatomic, assign) long selectedIndex;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

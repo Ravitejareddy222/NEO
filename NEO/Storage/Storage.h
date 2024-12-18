@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)getAccessToken;
 
++(void) saveAddrress: (NSString *)address;
++(NSArray *) getAddressList;
+
 @end
 
 NS_ASSUME_NONNULL_END

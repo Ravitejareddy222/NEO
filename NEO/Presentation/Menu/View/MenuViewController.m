@@ -11,6 +11,8 @@
 #import "AddToCartViewController.h"
 #import "Storage.h"
 #import "LoginViewController.h"
+#import "OrdersListViewController.h"
+#import "MyAccountViewController.h"
 
 @interface MenuViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -55,28 +57,42 @@
         }
         case 1: {
             ProductListViewController *productVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductListViewController"];
-                        productVC.categoryType = indexPath.row + 1;
+                        productVC.categoryType = indexPath.row;
+            productVC.listTitle = @"Tables";
                         vc = productVC;
             break;
         }
         case 2: {
             ProductListViewController *productVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductListViewController"];
-                        productVC.categoryType = indexPath.row + 1;
+                        productVC.categoryType = indexPath.row;
+            productVC.listTitle = @"Sofas";
                         vc = productVC;
             break;
         }
         case 3:{
             ProductListViewController *productVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductListViewController"];
-                        productVC.categoryType = indexPath.row + 1;
+                        productVC.categoryType = indexPath.row;
+                        productVC.listTitle = @"Chairs";
                         vc = productVC;
             break;
         }
         case 4:{
             ProductListViewController *productVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductListViewController"];
-                        productVC.categoryType = indexPath.row + 1;
+                        productVC.categoryType = indexPath.row;
+                        productVC.listTitle = @"Cupboards";
                         vc = productVC;
             break;
         }
+        case 5:{
+            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"MyAccountViewController"];
+            break;
+        }
+            
+        case 7:{
+            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"OrdersListViewController"];
+            break;
+        }
+            
         case 8:
         {
             [Storage removeAccessToken];

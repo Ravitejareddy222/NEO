@@ -7,13 +7,23 @@
 
 #import "ProductListTableViewCell.h"
 #import <SDWebImage/SDWebImage.h>
+#import "RatingCollectionViewCell.h"
 
 @implementation ProductListTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    self.ratingCollectionView.delegate = self;
+    self.ratingCollectionView.dataSource = self;
+    UINib *nib = [UINib nibWithNibName:@"RatingCollectionViewCell" bundle:nil];
+    [self.ratingCollectionView registerNib:nib forCellWithReuseIdentifier:@"RatingCollectionViewCell"];
+    
+    UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout *)self.ratingCollectionView.collectionViewLayout;
+        flowLayout.minimumInteritemSpacing = 0;
+        flowLayout.itemSize = CGSizeMake(13, 13);
+        [flowLayout invalidateLayout];
 }
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
@@ -38,6 +48,19 @@
     }
 }
 
+- (nonnull __kindof UICollectionViewCell *)collectionView:(nonnull UICollectionView *)collectionView cellForItemAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    RatingCollectionViewCell *cell = (RatingCollectionViewCell *) [collectionView dequeueReusableCellWithReuseIdentifier:@"RatingCollectionViewCell" forIndexPath:indexPath];
+    
+    return cell;
+}
+
+- (NSInteger)collectionView:(nonnull UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeMake(16, 16);
+}
 @end
 
 
