@@ -25,7 +25,7 @@
 }
 
 -(void) showAlert: (NSString *)title mesaage: (NSString *)message{
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@""
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title
                                                                    message:message
                                                             preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK"

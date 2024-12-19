@@ -32,7 +32,7 @@
 - (void)setupMenuData {
     self.menuTitles = @[@"My Cart", @"Tables", @"Sofas", @"Chairs", @"Cupboards", @"My Account", @"Store Locator", @"My Orders", @"Logout"];
     
-    self.menuImages = @[@"cart", @"table_01", @"Sofa_01", @"chair", @"cupboard-icon", @"person", @"storelocator_icon", @"my-orders-icon", @"logout"];
+    self.menuImages = @[@"cart", @"table_01", @"Sofa_01", @"chair", @"cupboard-icon", @"person", @"locator", @"my-orders-icon", @"logout"];
 }
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
@@ -93,8 +93,7 @@
             break;
         }
             
-        case 8:
-        {
+        case 8:{
             [Storage removeAccessToken];
             LoginViewController *LoginVc = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
             [self.navigationController pushViewController:LoginVc animated:YES];

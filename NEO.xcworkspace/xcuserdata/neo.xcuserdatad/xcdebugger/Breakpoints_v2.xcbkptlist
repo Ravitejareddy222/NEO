@@ -7,148 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "42350DDC-076A-4FE6-8B50-64BAC24D1A19"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Address/View/AddressViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "-footerButtonTapped"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1D96774D-F892-4547-A337-E4C190A3C13F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Address/View/AddressViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "-tableView:viewForFooterInSection:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1D96774D-F892-4547-A337-E4C190A3C13F - f10a832581af4a4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AddressViewController tableView:viewForFooterInSection:]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Address/View/AddressViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "94"
-                  endingLineNumber = "94"
-                  offsetFromSymbolStart = "788">
-               </Location>
-               <Location
-                  uuid = "1D96774D-F892-4547-A337-E4C190A3C13F - f10a832581af4aef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AddressViewController tableView:viewForFooterInSection:]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Address/View/AddressViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "89"
-                  endingLineNumber = "89"
-                  offsetFromSymbolStart = "783">
-               </Location>
-               <Location
-                  uuid = "1D96774D-F892-4547-A337-E4C190A3C13F - f10a832581af4970"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AddressViewController tableView:viewForFooterInSection:]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Address/View/AddressViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "100"
-                  endingLineNumber = "100"
-                  offsetFromSymbolStart = "783">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0CFB28C7-1EA8-4038-A0CF-3F7B66386988"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NEO/Presentation/Address/View/AddressViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "-footerButtonTapped"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0CFB28C7-1EA8-4038-A0CF-3F7B66386988 - 2e56e2047ba7c6f5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AddressViewController footerButtonTapped]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Address/View/AddressViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "0CFB28C7-1EA8-4038-A0CF-3F7B66386988 - 2e56e2047ba7c652"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AddressViewController footerButtonTapped]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Address/View/AddressViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "0CFB28C7-1EA8-4038-A0CF-3F7B66386988 - 2e56e2047ba7c7bf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AddressViewController footerButtonTapped]"
-                  moduleName = "NEO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/neo/Desktop/NEO/NEO/Presentation/Address/View/AddressViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7AF5215F-2D67-46EE-AC3F-A8498A667710"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1096,6 +954,54 @@
             startingLineNumber = "49"
             endingLineNumber = "49"
             landmarkName = "-saveAccountData:lastName:email:dob:phoneNumber:personImage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1C2698F-7567-4B43-9A89-9370028E9580"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/Presentation/Rating/ViewModel/RatingViewModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-rateProduct:productId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56C3AAC1-3F21-4DFA-AB06-C4CCB80199B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/BusinessLayer/Repositories/Ratings/RatingsServices.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-saveRatings:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74E7E763-CBB6-4854-A436-1D318FA5834D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO/BusinessLayer/Repositories/Ratings/RatingsServices.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-saveRatings:completion:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

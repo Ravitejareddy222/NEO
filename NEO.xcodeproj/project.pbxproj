@@ -38,8 +38,11 @@
 		B51859FC2D07239E00E6DFDC /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51859FA2D07239E00E6DFDC /* ProductListTableViewCell.xib */; };
 		B5185A012D07286900E6DFDC /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5185A002D07286900E6DFDC /* ProductListViewModel.m */; };
 		B5185A052D07337300E6DFDC /* ProductListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5185A042D07337300E6DFDC /* ProductListModel.m */; };
-		B52220742D0CAB740066CE7E /* AccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52220722D0CAB740066CE7E /* AccountTableViewCell.m */; };
-		B52220752D0CAB740066CE7E /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52220732D0CAB740066CE7E /* AccountTableViewCell.xib */; };
+		B51D0B822D142BBA00E64F28 /* RatingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D0B812D142BBA00E64F28 /* RatingViewModel.m */; };
+		B51D0B862D142D0A00E64F28 /* RatingsServices.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D0B852D142D0A00E64F28 /* RatingsServices.m */; };
+		B51D0B892D142D1900E64F28 /* RatingsAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D0B882D142D1900E64F28 /* RatingsAPIs.m */; };
+		B51D0B8D2D142DC200E64F28 /* RatingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D0B8C2D142DC200E64F28 /* RatingsModel.m */; };
+		B51D0B962D14547000E64F28 /* StoreLocatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D0B952D14547000E64F28 /* StoreLocatorViewController.m */; };
 		B522207F2D0CB6A30066CE7E /* ButtonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B522207D2D0CB6A30066CE7E /* ButtonViewCell.m */; };
 		B52220802D0CB6A40066CE7E /* ButtonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B522207E2D0CB6A30066CE7E /* ButtonViewCell.xib */; };
 		B52246922D103786009524F4 /* DeleteAndEditCartViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B52246912D103786009524F4 /* DeleteAndEditCartViewModel.m */; };
@@ -175,9 +178,16 @@
 		B5185A002D07286900E6DFDC /* ProductListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
 		B5185A032D07337300E6DFDC /* ProductListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListModel.h; sourceTree = "<group>"; };
 		B5185A042D07337300E6DFDC /* ProductListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListModel.m; sourceTree = "<group>"; };
-		B52220712D0CAB740066CE7E /* AccountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewCell.h; sourceTree = "<group>"; };
-		B52220722D0CAB740066CE7E /* AccountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewCell.m; sourceTree = "<group>"; };
-		B52220732D0CAB740066CE7E /* AccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
+		B51D0B802D142BBA00E64F28 /* RatingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingViewModel.h; sourceTree = "<group>"; };
+		B51D0B812D142BBA00E64F28 /* RatingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingViewModel.m; sourceTree = "<group>"; };
+		B51D0B842D142D0A00E64F28 /* RatingsServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingsServices.h; sourceTree = "<group>"; };
+		B51D0B852D142D0A00E64F28 /* RatingsServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsServices.m; sourceTree = "<group>"; };
+		B51D0B872D142D1900E64F28 /* RatingsAPIs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingsAPIs.h; sourceTree = "<group>"; };
+		B51D0B882D142D1900E64F28 /* RatingsAPIs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsAPIs.m; sourceTree = "<group>"; };
+		B51D0B8B2D142DC200E64F28 /* RatingsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingsModel.h; sourceTree = "<group>"; };
+		B51D0B8C2D142DC200E64F28 /* RatingsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsModel.m; sourceTree = "<group>"; };
+		B51D0B942D14547000E64F28 /* StoreLocatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreLocatorViewController.h; sourceTree = "<group>"; };
+		B51D0B952D14547000E64F28 /* StoreLocatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreLocatorViewController.m; sourceTree = "<group>"; };
 		B522207C2D0CB6A30066CE7E /* ButtonViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewCell.h; sourceTree = "<group>"; };
 		B522207D2D0CB6A30066CE7E /* ButtonViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewCell.m; sourceTree = "<group>"; };
 		B522207E2D0CB6A30066CE7E /* ButtonViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewCell.xib; sourceTree = "<group>"; };
@@ -379,7 +389,6 @@
 				B500A7982D02DE3600378734 /* Presentation */,
 				B500A7992D02DE3F00378734 /* BusinessLayer */,
 				B500A79A2D02DE4900378734 /* DataLayer */,
-				B5C7A06C2D0ACF41003A55E8 /* Storage */,
 				B500A79C2D02DE5F00378734 /* Utils */,
 				B500A79B2D02DE4F00378734 /* Resources */,
 				B500A7872D02DDD400378734 /* Main.storyboard */,
@@ -405,23 +414,17 @@
 		B500A7982D02DE3600378734 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B55131B22D12F10900D51B1C /* Rating */,
-				B551319D2D12D33100D51B1C /* ResetPassword */,
-				B5459BD42D0DFBF900AF636A /* Address */,
-				B522206E2D0CAB480066CE7E /* Account */,
-				B5226F722D0C71CF001A757C /* OrderDetail */,
-				B5226F712D0C71C7001A757C /* OrderList */,
-				B5226F502D0BFDB1001A757C /* MyAccount */,
-				B5226F4F2D0BFDAA001A757C /* Order */,
-				B5226F4E2D0BFD8D001A757C /* Cart */,
-				B5ABBFA12D0AAB2500942851 /* Menu */,
-				B556A01B2D0962C400D83503 /* AddToCart */,
-				B556A0122D095AFA00D83503 /* ProductDetails */,
-				B51859F32D0713B000E6DFDC /* ProductList */,
-				B500A7A02D02DEA600378734 /* Home */,
-				B500A79F2D02DE9300378734 /* ForgotPassword */,
-				B500A79E2D02DE8C00378734 /* Register */,
+				B51D0B8F2D14493D00E64F28 /* Account */,
 				B500A79D2D02DE7700378734 /* Login */,
+				B500A79E2D02DE8C00378734 /* Register */,
+				B5ABBFA12D0AAB2500942851 /* Menu */,
+				B500A7A02D02DEA600378734 /* Home */,
+				B51D0B912D1449E500E64F28 /* Product */,
+				B51D0B902D1449D000E64F28 /* Cart */,
+				B51D0B8E2D1448A800E64F28 /* Orders */,
+				B551319D2D12D33100D51B1C /* ResetPassword */,
+				B500A79F2D02DE9300378734 /* ForgotPassword */,
+				B51D0B922D14544100E64F28 /* StoreLocator */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 		B500A79C2D02DE5F00378734 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B5C7A06C2D0ACF41003A55E8 /* Storage */,
 				B52B64292D11548700DAD309 /* NavigationItems */,
 				B52B64252D11496700DAD309 /* Loader */,
 				B500A7C42D02E4D600378734 /* Extensions */,
@@ -575,6 +579,7 @@
 		B500A7B02D02E37300378734 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B51D0B8A2D142DAB00E64F28 /* RatingsModel */,
 				B55131A72D12DDF000D51B1C /* ResetPassword */,
 				B52B64542D11AB1100DAD309 /* MyAccount */,
 				B52B64412D1165F100DAD309 /* Forgotpassword */,
@@ -604,6 +609,7 @@
 		B500A7B52D02E3C900378734 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				B51D0B832D142CF800E64F28 /* Ratings */,
 				B55131AB2D12DECC00D51B1C /* ResetPassword */,
 				B52B64582D11AF9F00DAD309 /* MyAccount */,
 				B52B64392D11649D00DAD309 /* ForgotPassword */,
@@ -737,30 +743,88 @@
 			path = ProductList;
 			sourceTree = "<group>";
 		};
-		B522206E2D0CAB480066CE7E /* Account */ = {
+		B51D0B7F2D142BA000E64F28 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B522206F2D0CAB4F0066CE7E /* View */,
+				B51D0B802D142BBA00E64F28 /* RatingViewModel.h */,
+				B51D0B812D142BBA00E64F28 /* RatingViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B51D0B832D142CF800E64F28 /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				B51D0B872D142D1900E64F28 /* RatingsAPIs.h */,
+				B51D0B882D142D1900E64F28 /* RatingsAPIs.m */,
+				B51D0B842D142D0A00E64F28 /* RatingsServices.h */,
+				B51D0B852D142D0A00E64F28 /* RatingsServices.m */,
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		B51D0B8A2D142DAB00E64F28 /* RatingsModel */ = {
+			isa = PBXGroup;
+			children = (
+				B51D0B8B2D142DC200E64F28 /* RatingsModel.h */,
+				B51D0B8C2D142DC200E64F28 /* RatingsModel.m */,
+			);
+			path = RatingsModel;
+			sourceTree = "<group>";
+		};
+		B51D0B8E2D1448A800E64F28 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				B5226F722D0C71CF001A757C /* OrderDetail */,
+				B5226F712D0C71C7001A757C /* OrderList */,
+				B5226F4F2D0BFDAA001A757C /* Order */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		B51D0B8F2D14493D00E64F28 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B5226F502D0BFDB1001A757C /* MyAccount */,
+				B5459BD42D0DFBF900AF636A /* Address */,
 			);
 			path = Account;
 			sourceTree = "<group>";
 		};
-		B522206F2D0CAB4F0066CE7E /* View */ = {
+		B51D0B902D1449D000E64F28 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
-				B52220702D0CAB560066CE7E /* Cell */,
+				B556A01B2D0962C400D83503 /* AddToCart */,
+				B5226F4E2D0BFD8D001A757C /* MyCart */,
 			);
-			path = View;
+			path = Cart;
 			sourceTree = "<group>";
 		};
-		B52220702D0CAB560066CE7E /* Cell */ = {
+		B51D0B912D1449E500E64F28 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				B52220712D0CAB740066CE7E /* AccountTableViewCell.h */,
-				B52220722D0CAB740066CE7E /* AccountTableViewCell.m */,
-				B52220732D0CAB740066CE7E /* AccountTableViewCell.xib */,
+				B55131B22D12F10900D51B1C /* Rating */,
+				B51859F32D0713B000E6DFDC /* ProductList */,
+				B556A0122D095AFA00D83503 /* ProductDetails */,
 			);
-			path = Cell;
+			path = Product;
+			sourceTree = "<group>";
+		};
+		B51D0B922D14544100E64F28 /* StoreLocator */ = {
+			isa = PBXGroup;
+			children = (
+				B51D0B932D14545700E64F28 /* View */,
+			);
+			path = StoreLocator;
+			sourceTree = "<group>";
+		};
+		B51D0B932D14545700E64F28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B51D0B942D14547000E64F28 /* StoreLocatorViewController.h */,
+				B51D0B952D14547000E64F28 /* StoreLocatorViewController.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B522468D2D103702009524F4 /* MyCart */ = {
@@ -809,13 +873,13 @@
 			path = DeleteAndEditCartModel;
 			sourceTree = "<group>";
 		};
-		B5226F4E2D0BFD8D001A757C /* Cart */ = {
+		B5226F4E2D0BFD8D001A757C /* MyCart */ = {
 			isa = PBXGroup;
 			children = (
 				B522468E2D10371D009524F4 /* DeleteAndEditCart */,
 				B522468D2D103702009524F4 /* MyCart */,
 			);
-			path = Cart;
+			path = MyCart;
 			sourceTree = "<group>";
 		};
 		B5226F4F2D0BFDAA001A757C /* Order */ = {
@@ -917,9 +981,9 @@
 		B5226F732D0C71DA001A757C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B5226F742D0C71E3001A757C /* Cell */,
 				B575E1602D0F55B40056994C /* OrderDetailsViewController.h */,
 				B575E1612D0F55B40056994C /* OrderDetailsViewController.m */,
+				B5226F742D0C71E3001A757C /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1088,7 +1152,7 @@
 		B551319D2D12D33100D51B1C /* ResetPassword */ = {
 			isa = PBXGroup;
 			children = (
-				B551319F2D12D34A00D51B1C /* ViewModel */,
+				B55131A32D12D88E00D51B1C /* ViewModel */,
 				B551319E2D12D33900D51B1C /* View */,
 			);
 			path = ResetPassword;
@@ -1103,21 +1167,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B551319F2D12D34A00D51B1C /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				B55131A32D12D88E00D51B1C /* ViewModel */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		B55131A32D12D88E00D51B1C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				B55131A42D12D8AA00D51B1C /* ResetPasswordViewModel.h */,
 				B55131A52D12D8AA00D51B1C /* ResetPasswordViewModel.m */,
 			);
-			path = ViewModel;
+			name = ViewModel;
+			path = ViewModel/ViewModel;
 			sourceTree = "<group>";
 		};
 		B55131A72D12DDF000D51B1C /* ResetPassword */ = {
@@ -1143,6 +1200,7 @@
 		B55131B22D12F10900D51B1C /* Rating */ = {
 			isa = PBXGroup;
 			children = (
+				B51D0B7F2D142BA000E64F28 /* ViewModel */,
 				B55131B32D12F11D00D51B1C /* View */,
 			);
 			path = Rating;
@@ -1151,9 +1209,9 @@
 		B55131B32D12F11D00D51B1C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B55131B42D12F12700D51B1C /* Cell */,
 				B55131BA2D13086D00D51B1C /* ProductRatingViewController.h */,
 				B55131BB2D13086D00D51B1C /* ProductRatingViewController.m */,
+				B55131B42D12F12700D51B1C /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1452,7 +1510,6 @@
 			files = (
 				B500A78E2D02DDD600378734 /* LaunchScreen.storyboard in Resources */,
 				B5459BDB2D0DFD1900AF636A /* AddressViewCell.xib in Resources */,
-				B52220752D0CAB740066CE7E /* AccountTableViewCell.xib in Resources */,
 				B5C7A0752D0AF89A003A55E8 /* MenuTableViewCell.xib in Resources */,
 				B51859FC2D07239E00E6DFDC /* ProductListTableViewCell.xib in Resources */,
 				B5226F5F2D0C1528001A757C /* MyCartTableViewCell.xib in Resources */,
@@ -1541,6 +1598,7 @@
 				B5226F562D0C1328001A757C /* MyCartViewController.m in Sources */,
 				B500A7C72D02E4F100378734 /* TextFieldExtension.m in Sources */,
 				B52246972D103A92009524F4 /* DeleteAndEditCartAPIs.m in Sources */,
+				B51D0B962D14547000E64F28 /* StoreLocatorViewController.m in Sources */,
 				B5226F592D0C1454001A757C /* MyCartViewModel.m in Sources */,
 				B556A0312D09B9C800D83503 /* AddToCartViewModel.m in Sources */,
 				B52B64442D11660F00DAD309 /* ForgotPasswordModel.m in Sources */,
@@ -1552,7 +1610,6 @@
 				B575E1712D0F5AA20056994C /* OrderDetailsServices.m in Sources */,
 				B500A7862D02DDD400378734 /* LoginViewController.m in Sources */,
 				B575E15F2D0F43560056994C /* OrdersListModel.m in Sources */,
-				B52220742D0CAB740066CE7E /* AccountTableViewCell.m in Sources */,
 				B556A0232D09683800D83503 /* ProductDetailsViewModel.m in Sources */,
 				B500A7C22D02E47A00378734 /* NetworkManager.m in Sources */,
 				B500A7B92D02E3FF00378734 /* RegisterAPIs.m in Sources */,
@@ -1568,6 +1625,8 @@
 				B522207F2D0CB6A30066CE7E /* ButtonViewCell.m in Sources */,
 				B500A7CA2D02E54F00378734 /* ForgotViewController.m in Sources */,
 				B556A03C2D09C28400D83503 /* AddToCartServices.m in Sources */,
+				B51D0B8D2D142DC200E64F28 /* RatingsModel.m in Sources */,
+				B51D0B862D142D0A00E64F28 /* RatingsServices.m in Sources */,
 				B575E15B2D0F43340056994C /* OrdersListServices.m in Sources */,
 				B575E1582D0F42CB0056994C /* OrdersListAPIs.m in Sources */,
 				B52B64492D11899100DAD309 /* MyAccountViewController.m in Sources */,
@@ -1591,6 +1650,7 @@
 				B575E16A2D0F58740056994C /* OrderDetailsModel.m in Sources */,
 				B5226F6A2D0C305C001A757C /* MyCartServices.m in Sources */,
 				B52B64352D115EFE00DAD309 /* UIViewController+Title.m in Sources */,
+				B51D0B822D142BBA00E64F28 /* RatingViewModel.m in Sources */,
 				B55131BC2D13086D00D51B1C /* ProductRatingViewController.m in Sources */,
 				B5459BDA2D0DFD1900AF636A /* AddressViewCell.m in Sources */,
 				B51859EC2D06DB5C00E6DFDC /* HomeViewController.m in Sources */,
@@ -1603,6 +1663,7 @@
 				B575E1462D0EB49E0056994C /* PlaceOrderModel.m in Sources */,
 				B5185A012D07286900E6DFDC /* ProductListViewModel.m in Sources */,
 				B52B645E2D11AFCA00DAD309 /* MyAccountServices.m in Sources */,
+				B51D0B892D142D1900E64F28 /* RatingsAPIs.m in Sources */,
 				B52B645B2D11AFB700DAD309 /* MyAccountAPIs.m in Sources */,
 				B575E1622D0F55B40056994C /* OrderDetailsViewController.m in Sources */,
 				B52B64402D1164D800DAD309 /* ForgotPasswordServices.m in Sources */,

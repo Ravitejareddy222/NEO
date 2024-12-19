@@ -24,8 +24,12 @@
             completion(nil, error);
         }else{
             NSError *jsonError;
-            LoginResponse *loginresponse = [[LoginResponse alloc] initWithDictionary:data error:&jsonError];
-            completion(loginresponse, jsonError);
+            if(data){
+                LoginResponse *loginresponse = [[LoginResponse alloc] initWithDictionary:data error:&jsonError];
+                completion(loginresponse, jsonError);
+            }else{
+                completion(nil, nil);
+            }
         }
     }];
 }
